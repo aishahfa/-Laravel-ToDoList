@@ -29,6 +29,6 @@ class TodoList extends Migration
      */
     public function down()
     {
-        Scheme::dropIfExits('todoList');
+        Schema::dropIfExits('todoList');
     }
 }
